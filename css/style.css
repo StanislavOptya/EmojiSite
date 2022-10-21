@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+body{
+    background-color: #D4D3D8;
+    margin: 0 auto;
+}
+
+.block{
+    margin: 0 auto;
+    width: 1440px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.block h1{
+    font-family: Inter;
+    font-size: 72px;
+    color: #CCF8FF;
+    margin: 0;
+    font-weight: 700;
+    padding-top: 64px;
+}
+
+.block h2{
+    font-family: Inter;
+    font-size: 21px;
+    color: #CCF8FF;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.Placeholder {
+    padding-top: 75px;
+}
+
+input{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    border-style: none;
+    width: 820px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #CED4DA;
+    margin: 0 auto;
+}
+
+.text{
+    padding-left: 32px;
+}
+
+.cards{
+    margin: 0 auto;
+    height: 125200px;
+    width: 1440px;
+    box-shadow: 0px 8px 35px rgb(0 0 0 / 36%);
+    background-color: #EDEEF3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emoji{
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 316px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter';
+}
+
+.card{
+    margin-top: 40px;
+    width: 988px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.emoji p{
+    width: 268px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-family: inter;
+}
+
+.emoji h1{
+    margin: 0;
+    font-family: inter;
+    font-size: 17px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.emoji h2{
+    margin: 0;
+    width: 268px;
+    font-family: inter;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 12px;
+    color: #4f444a;
+    font-weight: 420;
+
+}
+
+.emoji p:first-child{
+    font-size: 48px;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.hide{
+    display: none;
+}
